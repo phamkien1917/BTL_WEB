@@ -1,0 +1,32 @@
+# Thư mục chứa các thư viện phụ thuộc
+node_modules/
+
+# File khóa phiên bản phụ thuộc
+package-lock.json
+
+# Thư mục build của React
+build/
+
+# File log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File môi trường
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# File tạm của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Thư mục cục bộ của IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+"@

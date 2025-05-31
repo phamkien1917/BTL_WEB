@@ -1,0 +1,30 @@
+# Thư mục chứa các file build
+dist/
+build/
+
+# File môi trường
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# File log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File tạm của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Thư mục cấu hình của IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Các file build của backend và frontend (nếu có trong thư mục gốc)
+node_modules/
+package-lock.json

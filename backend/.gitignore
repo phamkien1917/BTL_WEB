@@ -1,0 +1,23 @@
+# Thư mục chứa các thư viện phụ thuộc
+node_modules/
+
+# File khóa phiên bản phụ thuộc
+package-lock.json
+
+# File log
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Thư mục chứa ảnh tải lên (nếu không muốn commit ảnh lên Git)
+public/images/*
+!public/images/.gitkeep
+
+# File môi trường
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+"@
