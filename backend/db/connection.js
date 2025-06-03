@@ -5,7 +5,7 @@ mongoose.set('strictQuery', true); // Thêm dòng này
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://photo-sharing:123@cluster0.jwieqem.mongodb.net/PhotoApp?retryWrites=true&w=majority&appName=Cluster0', {
+    await mongoose.connect('mongodb+srv://kienpt04:123@cluster0.plguliw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

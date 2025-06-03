@@ -82,7 +82,7 @@ function TopBar({ onLogout }) {
     <AppBar position="static" color="primary">
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          [PHÙNG HUY] - {getContext()}
+          [Phạm Kiên] - {getContext()}
         </Typography>
         {user && (
           <Button color="inherit" onClick={() => navigate('/upload')}>
